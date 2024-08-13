@@ -1,3 +1,63 @@
-<h1>Hola mundo</h1>
-<p> Bienvenido a mi primera aplicación de flask, </p>
-<p> durante el desarrollo de la misma nos la pasaremos muy bien. </p>
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi To Do app</title>
+  </head>
+  <body>
+    <h1>Bienvenido a mi To Do's app</h1>
+    
+    <button>Agregar nuevo pendiente</button>
+
+    <h3>Pendientes</h3>
+    <table>
+      <tbody>
+        <tr>
+          <th>Nombre</th>
+          <th>Descripción</th>
+          <th>Acciones</th>
+        </tr>
+        <tr>
+          <td> Entrenar un modelo de regresión </td>
+          <td> Este modelo debe tener un AUC score mayor a 0.65</td>
+          <td><button>Mover a "en proceso"</button></td>
+          <td><button>Eliminar</button></td>
+        </tr>
+      </tbody>
+    </table>
+    
+    <h3>En proceso</h3>
+    <table>
+      <tbody>
+        <tr>
+          <th>Nombre</th>
+          <th>Descripción</th>
+          <th>Acciones</th>
+        </tr>
+        <tr>
+          <td> Creando nuevas features para alimentar el modelo</td>
+          <td> Integrando 3rd party vendors, como Palenca, para las features</td>
+          <td><button>Mover a Finalizado</button></td>
+          <td><button>Eliminar</button></td>
+        </tr>
+      </tbody>
+    </table>
+    
+    <h3>Finalizado</h3>
+    <table>
+      </tbody>
+        <tr>
+          <th>Nombre</th>
+          <th>Descripción</th>
+          <th>Acción</th>
+        </tr>
+        <tr>
+          <td> Data de entrenamiento </td>
+          <td> Usado para entrenar el modelo </td> 
+          <td><button>Eliminar</button></td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
